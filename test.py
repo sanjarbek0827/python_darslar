@@ -26,7 +26,7 @@
 # Neytan suvsizlanish muhimligini bilganligi sababli, velosipedda bir soatda 0,5 litr suv ichadi.
 # Sizga soatlab vaqt beriladi va siz Neytan ichadigan litr sonini qaytarishingiz kerak, yaxlitlangan .
 
-# import math
-# time=float(input("Vaqtni kirting  "))
-# liter=math.floor(time*0.5)
-# print(f"Neyton ichidagan suv miqdori    {liter}")
+import math
+time=float(input("Vaqtni kirting  "))
+qiymat=math.floor(time*0.5)
+print(f"Neyton ichidagan suv miqdori    {qiymat}")
